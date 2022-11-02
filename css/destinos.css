@@ -1,0 +1,340 @@
+/* ver fuente a importar*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Ubuntu:wght@300;500;700&display=swap');
+
+.layoutDestinos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.layoutDestinos .destino {
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px; 
+    height: 250px;
+    width: 40%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: hsla(0, 0%, 100%, 0.943);
+    font-weight: normal;
+    text-decoration: none;
+} 
+
+.destino:first-child {
+    /*background-image:url("PCAC/assets/img/namucuraCO.jpg");*/
+    background-size: cover;
+    background-position: center center;
+    transition: transform .2s;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/PCAC/assets/img/namucuraCO.jpg");
+}
+
+.destino:first-child:hover {
+    transform: scale(1.1);
+}
+
+.destino:nth-child(2) {
+    background-image:url("/PCAC/assets/img/riveramayaMX.jpg");
+    background-size: cover;
+    background-position: center center;
+    transition: transform .2s;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/PCAC/assets/img/riveramayaMX.jpg");
+
+}
+
+.destino:nth-child(2):hover {
+    transform: scale(1.1);
+}
+
+.destino:nth-child(3) {
+    background-image:url("/PCAC/assets/img/OletariverUS.jpg");
+    background-size: cover;
+    background-position: center center;
+    transition: transform .2s;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/PCAC/assets/img/OletariverUS.jpg");
+}
+
+.destino:nth-child(3):hover {
+    transform: scale(1.1);
+}
+
+.destino:nth-child(4) {
+    background-image:url("/PCAC/assets/img/salines.png");
+    background-size: cover;
+    background-position: center center;
+    transition: transform .2s;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/PCAC/assets/img/salines.png");
+}
+
+.destino:nth-child(4):hover {
+    transform: scale(1.1);
+}
+
+.destino:nth-child(5) {
+    background-image:url("/PCAC/assets/img/paris.jpg");
+    background-size: cover;
+    background-position: center center;
+    transition: transform .2s;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/PCAC/assets/img/paris.jpg");
+}
+
+.destino:nth-child(5):hover {
+    transform: scale(1.1);
+}
+
+.destino:nth-child(6) {
+    background-image:url("/PCAC/assets/img/roma.jpg");
+    background-size: cover;
+    background-position: center center;
+    transition: transform .2s;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/PCAC/assets/img/roma.jpg");
+}
+
+.destino:nth-child(6):hover {
+    transform: scale(1.1);
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 20px;
+    padding-top: 30px;
+    margin: 30px;
+}
+
+nav{
+    background-image: linear-gradient(to right , rgb(101, 149, 194),rgb(120, 164, 193),rgb(152, 190, 219)) !important;
+}
+
+.titulo {
+    font-size: 2em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    filter: brightness(70%);
+}
+.titulo:hover{
+    filter: brightness(100%);
+}
+.p {
+    font-size: 0.80em;
+    color: #f4e8e8;
+    font-weight: bold;
+}
+  
+.myButton {
+    color: rgb(200, 241, 246);
+    font-size: 16px;
+    line-height: 16px;
+    padding: 6px; 
+    border-radius: 10px; 
+    font-family: roboto Condensed !important;   /* ver fuente a importar*/
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(26, 0, 51) 5px 5px 15px 5px; 
+    border: 2px solid rgb(28, 110, 164); 
+    display: inline-block;}
+
+.myButton:hover {
+    background: #1C6EA4; }
+    
+.myButton:active {
+    background: #144E75; }
+
+.destino a:link {
+    text-decoration: none; }
+
+.destino a:hover { 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Georgia, serif; 
+    font-weight: normal;  
+    font-style: normal; 
+    font-variant: normal; }
+
+.destino a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Georgia, serif; 
+    font-weight: normal;  
+    font-style: normal; 
+    font-variant: normal;  }
+
+*{
+    outline:none !important;}
+
+*:focus {
+    outline: none !important;}
+
+textarea:focus, input:focus{
+    outline: none !important;}
+    
+.layoutDestinos a{
+    text-decoration: none !important;
+    outline: none !important;}
+
+/* NAV --- FOTTER*/
+
+html{
+    scroll-behavior: smooth;
+    font-family: roboto Condensed !important;
+}
+
+body{
+    margin: 0;
+    font-family: roboto Condensed;
+    background-color: aliceblue;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(249, 250, 250);
+    
+}
+
+header .title{
+    margin: 0;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: rgb(9, 10, 10);
+    font-size: 2.5em;
+}
+
+header .container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .nav{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(113, 200, 200);
+    font-size: 1.25em;
+}
+
+header a:hover{
+    color: rgb(142, 106, 176);
+}
+
+footer {
+    background-color: rgb(37, 39, 39);
+}
+
+footer .container{
+    color: rgb(230, 237, 243);
+    height: 250px;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(249, 249, 248);
+}
+footer h5{
+    text-align: center;
+    color: rgb(249, 249, 248);
+    font-size: 25px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul{
+    text-align: center;
+    color: lemonchiffon;
+    list-style: none;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.about-btn{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+.fa-twitter{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    color: rgb(65, 233, 236);
+    
+    
+}
+.fa-github{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    color: rgb(171, 167, 167);
+}
+.fa-facebook-f{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    color: rgb(23, 23, 243);
+}
+.fa-whatsapp{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    color: rgb(20, 201, 53);
+}
+.fa-envelope{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    color: rgb(247, 248, 248);
+}
+    

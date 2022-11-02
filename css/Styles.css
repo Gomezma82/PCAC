@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Ubuntu:wght@300;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth !important;
+    font-family: roboto Condensed !important;
+}
+
+body{
+    margin: 0;
+    font-family: roboto Condensed !important;
+}
+
+h1{font-size: 3em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+h4{font-size: 1755em;}
+p{font-size: 1.25em;}
+
+button{
+    font-size: 1.5em ;
+    font-weight: bold;
+    padding:10px 20px ;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0,5);
+    box-shadow:2px 2px 10px rgba(0,0,0,0,5);
+    color: azure;
+    background-color: rgb(103, 227, 227);
+    
+}
+button:hover{
+    background-color: rgb(142, 106, 176);
+}
+
+#PRINCIPAL a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+.resaltadorprimario{
+    color: rgb(186, 70, 70);
+}
+.resaltador{
+    color: rgb(192, 9, 9);
+}
+
+header{
+    background-color: rgb(249, 250, 250);
+}
+
+header .title{
+    margin: 0;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: rgb(9, 10, 10);
+    font-size: 2.5em;
+}
+
+header .container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    background-image: linear-gradient(to right , rgb(101, 149, 194),rgb(120, 164, 193),rgb(152, 190, 219)) !important;
+}
+header .nav{
+    display:flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    padding-bottom: 25px !important;
+    
+   
+}
+
+header a{
+    padding: 5px 12px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    color: rgb(241, 244, 244) !important;
+    font-size: 1.25em !important;
+}
+
+header a:hover{
+    color: rgb(142, 106, 176) !important;
+}
+
+#PRINCIPAL{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: rgb(250, 249, 250);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/PCAC/assets/img/portada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#PRINCIPAL h3{
+    color: rgb(242, 245, 247);
+}
+#PRINCIPAL h1{
+    color: rgb(243, 239, 247);
+}
+#PRINCIPAL button{
+    color: rgb(131, 181, 192);
+    font-size: 2em;
+}
+
+
+
+#panel-ofertas{
+    background-color: rgb(37, 39, 39);
+    color: rgb(47, 163, 198);
+}
+
+
+#panel-ofertas .container{
+    text-align: left;
+    padding: 100px 0px;
+}
+
+#panel-ofertas p{
+    display: none;
+}
+#panel-ofertas h5{
+    font-size: larger;
+
+}
+
+#panel-ofertas h3{
+    margin-top: 0;
+    font-size: 2em;
+    text-align: left;
+}
+
+#panel-ofertas button{
+    margin: 0;
+    font-size: 1em;
+}
+
+#panel-ofertas .oferta{
+    background-position: center center;
+    background-size: cover;
+    padding: 70px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.oferta:first-child{
+    background-image:url("/PCAC/assets/img/namucuraCO.jpg");
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(70%);
+    cursor: pointer;
+    animation: escalar 1.5s infinite alternate;
+}
+@keyframes escalar{
+    to{
+        transform: scale(1);
+    }
+    from{
+        transform: scale(1.2);
+    }
+}
+
+.oferta:first-child:hover{
+    filter: brightness(100%);    
+}
+
+
+.oferta:nth-child(2){
+    background-image:url("/PCAC/assets/img/riveramayaMX.jpg");
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(70%);
+    cursor: pointer;
+    animation: escalar 1.5s infinite alternate;
+}
+@keyframes escalar{
+    to{
+        transform: scale(1);
+    }
+    from{
+        transform: scale(1.2);
+    }
+}
+
+.oferta:nth-child(2):hover{
+    filter: brightness(100%);    
+}
+
+
+.oferta:nth-child(3){
+    background-image:url("/PCAC/assets/img/OletariverUS.png");
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(70%);
+    cursor: pointer;
+    animation: escalar 1.5s infinite alternate;
+}
+@keyframes escalar{
+    to{
+        transform: scale(1);
+    }
+    from{
+        transform: scale(1.2);
+    }
+}
+
+.oferta:nth-child(3):hover{
+    filter: brightness(100%)
+
+}
+
+.oferta:nth-child(4){
+    background-image:url("/PCAC/assets/img/sessalinesEU.jpg");
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(70%);
+    cursor: pointer;
+    animation: escalar 1.5s infinite alternate;
+}
+@keyframes escalar{
+    to{
+        transform: scale(1);
+    }
+    from{
+        transform: scale(1.2);
+    }
+}
+
+.oferta:nth-child(4):hover{
+    filter: brightness(100%);    
+}
+
+footer {
+    background-color: rgb(37, 39, 39);
+}
+
+footer .container{
+    color: rgb(230, 237, 243);
+    height: 250px;
+    
+
+   
+    
+}
+
+footer p{
+    text-align: center;
+    color: rgb(249, 249, 248);
+}
+footer h5{
+    text-align: center;
+    color: rgb(249, 249, 248);
+    font-size: 25px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul{
+    text-align: center!important;
+    color: lemonchiffon!important;
+    list-style: none!important;
+    text-decoration: none!important;
+    font-size: larger!important;
+}
+
+.about-btn{
+    width: 80px!important;
+    height: 80px!important;
+    border-radius: 15px!important;
+}
+.fa-twitter{
+    width: 60px!important;
+    height: 60px!important;
+    border-radius: 15px!important;
+    color: rgb(65, 233, 236)!important;
+    
+    
+}
+.fa-github{
+    width: 60px!important;
+    height: 60px!important;
+    border-radius: 15px!important;
+    color: rgb(171, 167, 167)!important;
+}
+.fa-facebook-f{
+    width: 60px!important;
+    height: 60px!important;
+    border-radius: 15px!important;
+    color: rgb(23, 23, 243)!important;
+}
+.fa-whatsapp{
+    width: 60px!important;
+    height: 60px!important;
+    border-radius: 15px!important;
+    color: rgb(20, 201, 53)!important;
+}
+.fa-envelope{
+    width: 60px!important;
+    height: 60px!important;
+    border-radius: 15px!important;
+    color: rgb(247, 248, 248)!important;
+}
+
+.container-carousel{
+    background-image:url("/PCAC/assets/img/fondopartners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+    margin-bottom: 50px;
+
+}
+
+ul{
+    background-color: fff;
+    list-style-type: scuare;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+
+.btn-back{
+    font-size: larger;
+    color: rgb(113, 200, 200);
+    font-size: 40px;
+
+}
+.tit-nos{
+    font-size: 60px;
+    color: rgb(231, 219, 115);
+}
+
+.suscribe{
+    background-color: white;
+    height: 25em;
+}
+.box-sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 55vh;
+    background-color:aliceblue;
+    
+}
+.text-subs{
+    color: black !important;
+    font-size: 1.8em !important; 
+
+}
+.btn-sub{
+    font-size: 2.3em ;
+    font-weight: bold;
+    padding:10px 20px ;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0,5);
+    box-shadow:2px 2px 10px rgba(0,0,0,0,5);
+    color: white;
+    background-color:rgb(113, 200, 200);
+    text-decoration: none;
+    
+}
+
+.video{
+    width: 100%;
+    height: autoc;
+}
+
+
+
+
+@media (min-width: 660px){
+    .container-partner{
+        
+        justify-content: space-between;
+        background-image: none;
+        
+        width: 100%;
+        height: auto;
+        padding: 1em;
+        font-size: 1em;
+    
+    }
+
+
+}
+
+@media (min-width: 800px){
+    header{
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+
+    }
+    .container-partner{
+        background-image:url("/PCAC/assets/img/fondopartners.jpg");
+        width: 100%;
+        height: 600px;
+        padding: 50px;
+    
+    }
+    
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: center;
+    }
+     header nav{
+        display: flex;
+        justify-content: end;
+        
+        
+        
+        
+     }
+
+     #panel-ofertas .promociones{
+        display: flex;
+        justify-content: center;
+    }
+    #panel-ofertas h3{
+        margin-top: 0;
+
+
+    }
+    #panel-ofertas .oferta{
+        padding: 20px;
+            
+    }
+  
+}  
+
+
+
+
+
+
+@media (min-width: 340px){
+    ul{
+        background-color: fff;
+        list-style-type: scuare;
+        font-size: 1em;
+    }
+    .partner img{
+        width: 4em;
+        height: 4em;
+        
+    }
+    .container-partner{
+        background-color: aliceblue;
+        width: 100%;
+        height: auto;
+        padding: 1em;
+        font-size: 1em;
+    
+    }
+    .partner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-btn{
+        width: 2.5em;
+        height: 2.5em;
+        border-radius: 15px;
+    }
+    .fa-twitter{
+        width: 2.5em;
+        height: 2.5em;
+        border-radius: 15px;
+        color: rgb(65, 233, 236);
+        
+        
+    }
+    .fa-github{
+        width: 2.5em;
+        height: 2.5em;
+        border-radius: 15px;
+        color: rgb(171, 167, 167);
+    }
+    .fa-facebook-f{
+        width: 2.5em;
+        height: 2.5em;
+        border-radius: 15px;
+        color: rgb(23, 23, 243);
+    }
+    .fa-whatsapp{
+        width: 2.5em;
+        height: 2.5em;
+        border-radius: 15px;
+        color: rgb(20, 201, 53);
+    }
+    .fa-envelope{
+        width: 2.5em;
+        height: 2.5em;
+        border-radius: 15px;
+        color: rgb(247, 248, 248);
+    }
+
+
+}
