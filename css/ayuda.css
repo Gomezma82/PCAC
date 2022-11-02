@@ -17,7 +17,7 @@ nav{
 }
 
 .main-buscador {
-    background-image:url("/PCAC/assets/img/hotel.jpg");
+    background-image:url("/assets/img/hotel.jpg");
     border-radius: 1.0rem;
     margin: 0.5rem;
     display: flex;

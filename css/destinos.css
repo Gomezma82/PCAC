@@ -36,7 +36,7 @@
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/PCAC/assets/img/namucuraCO.jpg");
+    ,url("/assets/img/namucuraCO.jpg");
 }
 
 .destino:first-child:hover {
@@ -44,7 +44,7 @@
 }
 
 .destino:nth-child(2) {
-    background-image:url("/PCAC/assets/img/riveramayaMX.jpg");
+    background-image:url("/assets/img/riveramayaMX.jpg");
     background-size: cover;
     background-position: center center;
     transition: transform .2s;
@@ -53,7 +53,7 @@
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/PCAC/assets/img/riveramayaMX.jpg");
+    ,url("/assets/img/riveramayaMX.jpg");
 
 }
 
@@ -62,7 +62,7 @@
 }
 
 .destino:nth-child(3) {
-    background-image:url("/PCAC/assets/img/OletariverUS.jpg");
+    background-image:url("/assets/img/OletariverUS.jpg");
     background-size: cover;
     background-position: center center;
     transition: transform .2s;
@@ -71,7 +71,7 @@
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/PCAC/assets/img/OletariverUS.jpg");
+    ,url("/assets/img/OletariverUS.jpg");
 }
 
 .destino:nth-child(3):hover {
@@ -79,7 +79,7 @@
 }
 
 .destino:nth-child(4) {
-    background-image:url("/PCAC/assets/img/salines.png");
+    background-image:url("/assets/img/salines.png");
     background-size: cover;
     background-position: center center;
     transition: transform .2s;
@@ -88,7 +88,7 @@
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/PCAC/assets/img/salines.png");
+    ,url("/assets/img/salines.png");
 }
 
 .destino:nth-child(4):hover {
@@ -96,7 +96,7 @@
 }
 
 .destino:nth-child(5) {
-    background-image:url("/PCAC/assets/img/paris.jpg");
+    background-image:url("/assets/img/paris.jpg");
     background-size: cover;
     background-position: center center;
     transition: transform .2s;
@@ -105,7 +105,7 @@
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/PCAC/assets/img/paris.jpg");
+    ,url("/assets/img/paris.jpg");
 }
 
 .destino:nth-child(5):hover {
@@ -113,7 +113,7 @@
 }
 
 .destino:nth-child(6) {
-    background-image:url("/PCAC/assets/img/roma.jpg");
+    background-image:url("/assets/img/roma.jpg");
     background-size: cover;
     background-position: center center;
     transition: transform .2s;
@@ -122,7 +122,7 @@
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/PCAC/assets/img/roma.jpg");
+    ,url("/assets/img/roma.jpg");
 }
 
 .destino:nth-child(6):hover {
