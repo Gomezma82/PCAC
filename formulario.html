@@ -103,7 +103,7 @@
         pregunta = document.getElementById("pregunta").value;
         
         
-        if( nombre == null || nombre.length == 0) 
+        if( nombre == null || nombre.length == 0 || !(/^[A-Za-z ]{2,15} [A-Za-z]{2,15}$/.test(nombre)))
         {
             Swal.fire({
                 text: "Por favor ingresá tu nombre y apellido para continuar...",
